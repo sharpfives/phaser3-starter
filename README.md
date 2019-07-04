@@ -18,9 +18,9 @@ npm i
 ```bash
 npm run dev
 ```
-This will open a browser window and launch the game. To debug and set break points in the Typescript source, open up the developer tab in Chrome.
+This will open a browser window and launch the game. You can now edit any of your files in <code>src/</code> or <code>resources/</code> and the game will automatically get rebuilt and the browser page will refresh. Pretty cool! You can debug and set break points in the Typescript source using the Developer Tab window in Chrome.
 
-# Production
+## Production
 When you're ready to publish your game, run:
 ```bash
 npm run prod

@@ -6,8 +6,8 @@ import * as Phaser from 'phaser';
 export class MainGame extends Phaser.Game {
   constructor() {
 		super({
-      width : 64, // for lowrezjam
-      height : 64, // for lowrezjam
+      width : 64, // for #lowrezjam
+      height : 64, // for #lowrezjam
       type: Phaser.WEBGL,
       parent : 'game-window',
       scene : TestScene,
