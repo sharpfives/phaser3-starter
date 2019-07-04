@@ -1,5 +1,5 @@
 # phaser3-starter
-This is starter project that uses best-practices for developing a web-based game using the Phaser 3 engine (via node module), Typescript, Webpack. The project is configured specifically for #LOWREZJAM with crisp pixel art and a gorgeous resolution of 64 x 64 pixels. Check it out in action [here](https://sharpfives.itch.io/phaser3-starter).
+This is a starter project that uses best-practices for developing a web-based game using the Phaser 3 engine (via node module), Typescript, and Webpack. The project is configured specifically for #LOWREZJAM with crisp pixel art and a gorgeous resolution of 64 x 64 pixels. Check it out in action [here](https://sharpfives.itch.io/phaser3-starter).
 
 ## Project Structure
 All code goes in <code>src/</code>, all resources (images, music, etc.) go in <code>resources/</code>.
@@ -7,8 +7,7 @@ All code goes in <code>src/</code>, all resources (images, music, etc.) go in <c
 The game entry point is in <code>src/main-game.ts</code>. This will start an example scene <code>src/test-scene.ts</code>, which moves a cursor sprite with your mouse.
 
 ## Install Dependencies
-
-This project uses webpack and NodeJS to run a minimal webserver for hosting the game. First download and install NodeJS (https://nodejs.org). Then:
+This project uses Webpack and NodeJS to run a minimal webserver for hosting the game. First download and install NodeJS (https://nodejs.org). Then,
 
 ```bash
 cd phaser3-starter
