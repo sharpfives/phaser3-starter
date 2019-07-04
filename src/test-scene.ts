@@ -2,7 +2,7 @@
 
 import * as Phaser from 'phaser';
 
-export class SceneBase extends Phaser.Scene {
+export class TestScene extends Phaser.Scene {
 	constructor() {
 		super("");
 	}

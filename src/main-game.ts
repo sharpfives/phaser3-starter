@@ -1,39 +1,27 @@
 'use strict';
 
-import { SceneBase } from "./scene-base";
+import { TestScene } from "./test-scene";
 import * as Phaser from 'phaser';
 
 export class MainGame extends Phaser.Game {
   constructor() {
 		super({
-      width : 64,
-      height : 64,
+      width : 64, // for lowrezjam
+      height : 64, // for lowrezjam
       type: Phaser.WEBGL,
       parent : 'game-window',
-      scene : SceneBase,
+      scene : TestScene,
 			backgroundColor : 0x550000,
 			render :{
 				pixelArt : true
 			},
-      physics: {
-        default: 'matter',
-        matter: {
-          gravity: { y: 0.08 },
-          debug: true
-        }
-      },
-      plugins: {
-
-      },
       callbacks: {
         postBoot: function (game) {
-          // In v3.15, you have to override Phaser's default styles
           game.canvas.style.width = '100%';
           game.canvas.style.height = '100%';
         }
       }
     });
-   
   }
 }
 

@@ -1,7 +1,10 @@
 # phaser3-starter
 This is quick-start project that uses best-practices for developing a web-based game using the Phaser 3 engine, Typescript, Webpack, and node modules.
 
-## Install dependencies
+## Project Structure
+All code goes in <code>src/</code>, all resources (images, music, etc.) go in <code>resources/</code>.
+
+## Install Dependencies
 ```bash
 cd phaser3-starter
 npm i
