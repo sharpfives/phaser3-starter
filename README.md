@@ -1,38 +1,21 @@
-## About
+# phaser3-starter
+This is quick-start project that uses best-practices for developing a web-based game using the Phaser 3 engine, Typescript, Webpack, and node modules.
 
-______ is an open source browser-based game made for LOWREZJAM 2019 (___) game jam hosted on itch.io. It was written using the PhaserJS 3 game engine.
-
-To play the game right now on itch.io, go here ____
-
-## Dependencies
-
-This project uses NodeJS to run a minimal webserver for hosting the game. Download and install NodeJS (https://nodejs.org)
-
-## Install
-
+## Install dependencies
 ```bash
-git clone https://github.com/sharpfives/home-game.git
-cd home-game
+cd phaser3-starter
 npm i
 ```
 
-## Level Editor
-
-This game uses the Tiled editor version 1.1.6 to layout levels and scenes. Any changes in the JSON output format of Tiled will undoubtedly cause breaking changes with the way this game parses those files.
-
-## Run
-
+## Run / Debug
 ```bash
-node home-game.js
+npm run dev
 ```
+This will open a browser window and launch the game. To debug and set break points in the Typescript source, open up the developer tab in Chrome.
 
-This will host the game on a local webserver at port 8080. The run the game, in browser, navigate to:
-
+# Production
+When you're ready to push your game to itch.io, run:
 ```bash
-http://localhost:8080
+npm run prod
 ```
-
-Currently only Firefox and Chrome browsers are supported.
-
-Thanks for playing!
-# phaser3-starter
+This will also open start your game but will minify and condense the game and all its dependencies. The dist/ folder can now but uploaded to itch.io. See ___ for instruction on how to use butler.
